@@ -43,6 +43,10 @@ header {
 .header-button:hover {
 	cursor: pointer;
 	background-color: rgba(7, 7, 7, 0.21);
+	box-shadow: none;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
 }
 small {
 	text-align: center;
@@ -183,7 +187,11 @@ footer {
 
 .footer-button:hover {
 	cursor: pointer;
-	background-color: rgba(255, 255, 253, 0.3);
+	background-color: #fff;
+	color: #3a7dfd;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
 }
 
 /* Адаптив*/

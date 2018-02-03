@@ -19,6 +19,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+		<link rel="stylesheet" href="css/animate.css">
 </head>
 
 <body>
@@ -27,14 +28,14 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-7">
-					<img class="header-img" src="img/main-img.png" alt="монитор">
+					<img class="header-img wow fadeInLeftBig" src="img/main-img.png" alt="монитор">
 				</div>
 				<!-- /.col-7 -->
 				<div class="col-lg-5">
-					<p class="header-pretitle">Веб-разработчик</p>
-					<h1 class="header-title">Катенев Дмитрий</h1>
-					<p class="header-aftertitle">Верстка на HTML/CSS <br> Разработка сайтов под ключ</p>
-					<div class="header-button-block">
+					<p class="header-pretitle wow fadeInRightBig" data-wow-delay="0.1s">Веб-разработчик</p>
+					<h1 class="header-title wow fadeInRightBig" data-wow-delay="0.2s">Катенев Дмитрий</h1>
+					<p class="header-aftertitle wow fadeInRightBig" data-wow-delay="0.3s">Верстка на HTML/CSS <br> Разработка сайтов под ключ</p>
+					<div class="header-button-block wow fadeInRightBig" data-wow-delay="0.4s">
 						<a href="https://vk.me/id65018887" class="header-button">Связаться</a>
 						<small>*Это бесплатно</small>
 					</div>
@@ -45,7 +46,7 @@
 	</header>
 	<section class="partfolio">
 		<div class="container">
-			<div class="portfolio-block">
+			<div class="portfolio-block wow fadeIn">
 				<h2 class="portfolio-title">Портфолио</h2>
 				<p class="portfolio-subtitle">Мои работы</p>
 				<div class="row">
@@ -87,10 +88,10 @@
 				<div class="col-md-4">
 					<div class="social-block">
 						<p class="footer-sub">Подпишитесь:</p>
-						<a href="https://www.facebook.com/"><img src="img/social_icons/facebook-logo-button.png" alt="facebook"></a>
-						<a href="https://telegram.org/"><img src="img/social_icons/telegram-symbol.png" alt="telegram"></a>
-						<a href="https://vk.com"><img src="img/social_icons/vk-social-logotype.png" alt="вконтакте"></a>
-						<a href="https://www.youtube.com/"><img src="img/social_icons/youtube-symbol.png" alt="youtube"></a>
+						<a href="https://www.facebook.com/"><img class="wow bounceInDown" src="img/social_icons/facebook-logo-button.png" alt="facebook" data-wow-delay="0.1s"></a>
+						<a href="https://telegram.org/"><img class="wow bounceInDown" src="img/social_icons/telegram-symbol.png" alt="telegram" data-wow-delay="0.2s"></a>
+						<a href="https://vk.com"><img class="wow bounceInDown" src="img/social_icons/vk-social-logotype.png" alt="вконтакте" data-wow-delay="0.3s"></a>
+						<a href="https://www.youtube.com/"><img class="wow bounceInDown" src="img/social_icons/youtube-symbol.png" alt="youtube" data-wow-delay="0.4s"></a>
 					</div>
 					<!-- /.social-block -->
 				</div>
@@ -106,6 +107,9 @@
 		</div>
 		<!-- /.container -->
 	</footer>
-
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </body>
 </html>
